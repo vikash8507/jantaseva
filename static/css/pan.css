@@ -1,0 +1,108 @@
+.pan {
+    display: flex;
+    height: 211px;
+    width: 665px;
+    margin: auto;
+}
+
+.pan-front, .pan-back {
+    height: 208px;
+    width: 331px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+
+.pan-front {
+    margin-right: 3px;
+    margin-bottom: 3px;
+}
+
+.pan-front {
+    margin-bottom: 3px;
+}
+
+.pan-front img, .pan-back img {
+    width: 100%;
+    height: 100%;
+    filter: contrast(115%);
+    filter: brightness(115%);
+    filter: grayscale(30%);
+    filter: saturate(100%);
+    border-radius: 10px;
+}
+
+.pan-front p {
+    font-weight: 700;
+}
+
+.pan-front .pan {
+    position: absolute;
+    width: 80px;
+    height: 10px;
+    top: 37%;
+    left: 32.5%;
+    margin: 0;
+    margin-top: 0.5px;
+    font-size: 12px;
+}
+
+.pan-front .name {
+    position: absolute;
+    height: 10px;
+    top: 59%;
+    left: 4%;
+    margin: 0;
+    margin-top: 0.5px;
+    font-size: 9px;
+}
+
+.pan-front .fname {
+    position: absolute;
+    width: 70px;
+    height: 10px;
+    top: 72%;
+    left: 4%;
+    margin: 0;
+    margin-top: 0.5px;
+    font-size: 9px;
+}
+
+.pan-front .birth {
+    position: absolute;
+    width: 50px;
+    height: 10px;
+    top: 88.5%;
+    left: 4%;
+    margin: 0;
+    margin-top: 0.5px;
+    font-size: 10px;
+}
+
+.pan-front .image {
+    position: absolute;
+    border-radius: 0px;
+    top: 25.2%;
+    left: 4%;
+    height: 57px;
+    width: 57px;
+}
+
+.pan-front .sign {
+    position: absolute;
+    border-radius: 0px;
+    bottom: 8%;
+    left: 38.2%;
+    height: 17px;
+    width: 80px;
+}
+
+.pan-front .qrcode {
+    position: absolute;
+    border-radius: 0px;
+    top: 27.5%;
+    right: 4.6%;
+    height: 100px;
+    width: 100px;
+}
