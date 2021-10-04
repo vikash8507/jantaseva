@@ -30,9 +30,9 @@ RAZORPAY_KEY_ID = env('RAZORPAY_KEY_ID')
 RAZORPAY_KEY_SECRET = env('RAZORPAY_KEY_SECRET')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', 'jantaseva.herokuapp.com']
+ALLOWED_HOSTS = ['localhost', 'jantaseva.herokuapp.com', 'https://jantaseva.herokuapp.com/']
 
 # Application definition
 
