@@ -32,7 +32,7 @@ RAZORPAY_KEY_SECRET = env('RAZORPAY_KEY_SECRET')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['localhost']
+ALLOWED_HOSTS = ['localhost', 'jantaseva.herokuapp.com']
 
 # Application definition
 
@@ -166,11 +166,10 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static")
 ]
 
+STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 MEDIA_ROOT = os.path.join(BASE_DIR, "media")
-
-STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
