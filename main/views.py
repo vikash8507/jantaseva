@@ -159,9 +159,6 @@ def upload_voter(request):
 
 @login_required
 def fill_voter(request, id):
-    if protect_access(request):
-        messages.warning(request, "You have no points to take any print.")
-        return redirect("dashboard")
     voter = get_object_or_404(Voter, id=id)
     if request.method == "POST":
         add1 = request.POST.get("add1", voter.address1)
