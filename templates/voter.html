@@ -46,7 +46,7 @@
                 &nbsp;&nbsp;:{% if voter.gender == 'M' %} पुरुष/Male {% else %} महिला/Female {% endif %}
             </p>
             <p><strong>जन्म तिथि</strong></p>
-            <p><strong>Date Of Birth</strong> &nbsp;&nbsp;:{{voter.birth|date:"Y-m-d"}}</p>
+            <p><strong>Date Of Birth</strong> &nbsp;&nbsp;:{{voter.birth|date:'d/m/Y'}}</p>
             <div class="address">
                 <p style="margin-right: 5px;"><strong>पता:</strong></p>
                 <p style="margin-right: 10px;">{{voter.address2}}</p>
