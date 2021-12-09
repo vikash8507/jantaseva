@@ -12,7 +12,7 @@
         <p class="pan">{{pan.pan}}</p>
         <p class="name">{{pan.name}}</p>
         <p class="fname">{{pan.fname}}</p>
-        <p class="birth">{{pan.birth|date:'m/d/Y'}}</p>
+        <p class="birth">{{pan.birth|date:'d/m/Y'}}</p>
         <img src="{{pan.photo.url}}" alt="" class="image">
         <img src="{{pan.sign.url}}" alt="" class="sign">
         <img class="qrcode" src="{% qr_url_from_text "Hello World!" size=8 version=10 image_format='png' %}" alt="Hello World!">
