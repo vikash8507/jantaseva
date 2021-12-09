@@ -13,7 +13,6 @@ heroku
 idna
 lxml
 mysqlclient
-pandas
 Pillow
 psycopg2-binary
 python-dateutil
