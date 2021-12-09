@@ -13,7 +13,6 @@ heroku
 idna
 lxml
 mysqlclient
-numpy
 pandas
 Pillow
 psycopg2-binary
