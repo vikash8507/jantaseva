@@ -27,3 +27,4 @@ urllib3
 whitenoise
 django_heroku
 gunicorn
+pandas==1.3.3
