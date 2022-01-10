@@ -1,7 +1,6 @@
 asgiref
 beautifulsoup4
 bs4
-certifi
 code128
 Django
 django-crispy-forms
@@ -10,16 +9,7 @@ django-qr-code
 englisttohindi
 heroku
 lxml
-pandas
 Pillow
 psycopg2-binary
-python-dateutil
-pytz
 razorpay
-requests
-segno
-six
-soupsieve
-sqlparse
-urllib3
 whitenoise
