@@ -1,0 +1,4 @@
+*/__pycache__/
+*/barcodes/
+*/photos/
+*.sqlite3
