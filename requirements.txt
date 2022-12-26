@@ -2,7 +2,7 @@ asgiref
 beautifulsoup4
 bs4
 code128
-Django
+Django==3.2
 django-crispy-forms
 django-environ
 django-qr-code
@@ -13,3 +13,4 @@ Pillow
 psycopg2-binary
 razorpay
 whitenoise
+django-cors-headers

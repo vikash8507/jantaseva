@@ -3,6 +3,7 @@ from django.urls import path, include
 from django.conf import settings
 from django.conf.urls.static import static
 from django.contrib.auth import views as auth_views
+from django.shortcuts import render
 
 from users.views import register_view, user_logout
 
@@ -25,3 +26,12 @@ urlpatterns = [
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+
+def handle_error_500(request):
+    return render(request, '500.html')
+
+def handle_error_404(request, exception):
+    return render(request, '404.html')
+
+handler500 = 'jantaseva.urls.handle_error_500'
+handler404 = 'jantaseva.urls.handle_error_404'
